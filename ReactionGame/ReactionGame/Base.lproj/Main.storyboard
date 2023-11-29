@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Get Ready!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Njy-D8-6Cy">
+                                <rect key="frame" x="40" y="91" width="313" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tj3-xa-NhJ">
+                                <rect key="frame" x="165.66666666666666" y="205.66666666666666" width="62" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Start"/>
+                                <connections>
+                                    <action selector="startStop:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6Rg-v7-ffT"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jnb-JY-H0R">
+                                <rect key="frame" x="40" y="308.66666666666669" width="313" height="27.666666666666686"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="jnb-JY-H0R" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="5Xt-We-5Jz"/>
+                            <constraint firstItem="Njy-D8-6Cy" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Kst-pp-1HM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Njy-D8-6Cy" secondAttribute="trailing" constant="40" id="Qij-ez-Pgc"/>
+                            <constraint firstItem="Njy-D8-6Cy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="fbq-Cp-SH3"/>
+                            <constraint firstItem="jnb-JY-H0R" firstAttribute="top" secondItem="tj3-xa-NhJ" secondAttribute="bottom" constant="68" id="jbt-zS-cfv"/>
+                            <constraint firstItem="tj3-xa-NhJ" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="lLk-o2-sm0"/>
+                            <constraint firstItem="Njy-D8-6Cy" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="32" id="sWb-6k-2n5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jnb-JY-H0R" secondAttribute="trailing" constant="40" id="thZ-gp-UtE"/>
+                            <constraint firstItem="tj3-xa-NhJ" firstAttribute="top" secondItem="Njy-D8-6Cy" secondAttribute="bottom" constant="84.666666666666671" id="wn3-0h-dlE"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="getReadyLabel" destination="Njy-D8-6Cy" id="BDV-7z-AOR"/>
+                        <outlet property="timerLabel" destination="jnb-JY-H0R" id="nOF-cI-Y98"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="57.251908396946561" y="-2.1126760563380285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
