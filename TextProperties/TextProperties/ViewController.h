@@ -9,6 +9,10 @@
 
 @interface ViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UILabel *label;
+@property (weak, nonatomic) IBOutlet UILabel *fontLabel;
+@property (weak, nonatomic) IBOutlet UITextField *textField;
+
+- (IBAction)endEditing:(id)sender;
 
 - (IBAction)setColor:(id)sender;
 - (IBAction)setSizeAndFont:(id)sender;
@@ -17,6 +21,7 @@
 - (IBAction)alignRight:(id)sender;
 - (IBAction)alignCenter:(id)sender;
 
+- (IBAction)doneTF:(id)sender;
 
 @end
 

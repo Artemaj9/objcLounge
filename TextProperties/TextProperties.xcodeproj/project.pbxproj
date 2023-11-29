@@ -14,6 +14,7 @@
 		AC0B216C2B179FC300BC7FAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC0B216B2B179FC300BC7FAE /* Assets.xcassets */; };
 		AC0B216F2B179FC300BC7FAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC0B216D2B179FC300BC7FAE /* LaunchScreen.storyboard */; };
 		AC0B21722B179FC300BC7FAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0B21712B179FC300BC7FAE /* main.m */; };
+		AC0B21792B17A4E800BC7FAE /* Pecita.otf in Resources */ = {isa = PBXBuildFile; fileRef = AC0B21782B17A4E800BC7FAE /* Pecita.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,12 +24,13 @@
 		AC0B21622B179FC100BC7FAE /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		AC0B21632B179FC100BC7FAE /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		AC0B21652B179FC100BC7FAE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AC0B21662B179FC100BC7FAE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AC0B21662B179FC100BC7FAE /* ViewController.m */ = {isa = PBXFileReference; indentWidth = 0; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		AC0B21692B179FC100BC7FAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC0B216B2B179FC300BC7FAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC0B216E2B179FC300BC7FAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC0B21702B179FC300BC7FAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC0B21712B179FC300BC7FAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC0B21782B17A4E800BC7FAE /* Pecita.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pecita.otf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				AC0B21662B179FC100BC7FAE /* ViewController.m */,
 				AC0B21682B179FC100BC7FAE /* Main.storyboard */,
 				AC0B216B2B179FC300BC7FAE /* Assets.xcassets */,
+				AC0B21782B17A4E800BC7FAE /* Pecita.otf */,
 				AC0B216D2B179FC300BC7FAE /* LaunchScreen.storyboard */,
 				AC0B21702B179FC300BC7FAE /* Info.plist */,
 				AC0B21712B179FC300BC7FAE /* main.m */,
@@ -136,6 +139,7 @@
 				AC0B216F2B179FC300BC7FAE /* LaunchScreen.storyboard in Resources */,
 				AC0B216C2B179FC300BC7FAE /* Assets.xcassets in Resources */,
 				AC0B216A2B179FC100BC7FAE /* Main.storyboard in Resources */,
+				AC0B21792B17A4E800BC7FAE /* Pecita.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

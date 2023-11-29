@@ -15,8 +15,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    self.view.backgroundColor = [UIColor lightGrayColor];
+    self.fontLabel.font = [UIFont fontWithName:@"Pecita" size:25];
+    self.fontLabel.text = @"Привет!";
+    self.fontLabel.textAlignment = NSTextAlignmentCenter;
+    self.textField.backgroundColor = [UIColor darkGrayColor];
+    self.textField.textColor = [UIColor whiteColor];
 }
+
 
 
 - (IBAction)alignCenter:(id)sender {
@@ -45,5 +51,10 @@
 
 - (IBAction)setColor:(id)sender {
     self.label.textColor = [UIColor redColor];
+}
+
+- (IBAction)endEditing:(id)sender {
+    self.label.text = self.textField.text;
+    [self resignFirstResponder];
 }
 @end
